@@ -2,10 +2,8 @@ import express from 'express'
 import path from 'path'
 import favicon from 'serve-favicon'
 import dotenv from 'dotenv'
-
 // import the router from your routes file
-
-
+import router from './routes/routes.js'
 dotenv.config()
 
 const PORT = process.env.PORT || 3000
@@ -23,8 +21,7 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
-
-
+app.use('/api', router)
 if (process.env.NODE_ENV === 'production') {
     app.get('/*', (_, res) =>
         res.sendFile(path.resolve('public', 'index.html'))
