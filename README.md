@@ -17,6 +17,8 @@ The following **required** functionality is completed:
   - [X]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
     <img src='./client/public/database.png' title='Render database dashboard' width='600' alt='Render Postgres database dashboard' />
   - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+    <img src='./client/public/postgre table 1.png' title='Postgres table 1 contents' width='600' alt='Postgres table 1 contents' />
+    <img src='./client/public/postgre table 2.png' title='Postgres table 2 contents' width='600' alt='Postgres table 2 contents' />
 - [X] **The web app displays a title.**
 - [X] **Website includes a visual interface that allows users to select a location they would like to view.**
   - [X] *Note: A non-visual list of links to different locations is insufficient.* 
@@ -38,10 +40,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<div>
+    <a href="https://www.loom.com/share/69d546458e564ac5b52890bb3b5f7f31">
+      <p>UnityGrid Plaza - 15 March 2026 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/69d546458e564ac5b52890bb3b5f7f31">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/69d546458e564ac5b52890bb3b5f7f31-418b3e41c0be05fd-full-play.gif#t=0.1">
+    </a>
+  </div>
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  GIF tool here
+GIF created with Loom  GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
