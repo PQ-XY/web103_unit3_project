@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import LocationsAPI from '../services/LocationsAPI'
 import unitygrid from '../assets/unitygrid.jpg'
 import '../css/Locations.css'
@@ -42,19 +43,19 @@ const Locations = () => {
     return (
         <div className='available-locations'>
             <div id='venue1button' className='venue1-button-overlay'>
-                <button>{venueNames.venue1}</button>
+                <Link to='/echolounge' role='button'>{venueNames.venue1}</Link>
             </div>
 
             <div id='venue2button' className='venue2-button-overlay'>
-                <button>{venueNames.venue2}</button>
+                <Link to='/houseofblues' role='button'>{venueNames.venue2}</Link>
             </div>
 
             <div id='venue3button' className='venue3-button-overlay'>
-                <button>{venueNames.venue3}</button>
+                <Link to='/pavilion' role='button'>{venueNames.venue3}</Link>
             </div>
 
             <div id='venue4button' className='venue4-button-overlay'>
-                <button>{venueNames.venue4}</button>
+                <Link to='/americanairlines' role='button'>{venueNames.venue4}</Link>
             </div>
 
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000.32 500" xmlSpace="preserve">
