@@ -1,10 +1,10 @@
-# WEB103 Project 3 - *Name of App Here*
+# WEB103 Project 3 - *UnityGrid Plaza*
 
-Submitted by: **Your name here**
+Submitted by: **Yao**
 
-About this web app: **App description here**
+About this web app: **UnityGrid Plaza is a virtual community space where users can explore an interactive city map, select venues, and instantly see upcoming events at each location.**
 
-Time spent: **X** hours
+Time spent: **4** hours
 
 ## Required Features
 
@@ -14,13 +14,14 @@ The following **required** functionality is completed:
 
 - [X] **The web app uses React to display data from the API**
 - [X] **The web app is connected to a PostgreSQL database, with an appropriately structured Events table**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+  - [X]  **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+    <img src='./client/public/database.png' title='Render database dashboard' width='600' alt='Render Postgres database dashboard' />
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 - [X] **The web app displays a title.**
-- [ ] **Website includes a visual interface that allows users to select a location they would like to view.**
-  - [ ] *Note: A non-visual list of links to different locations is insufficient.* 
-- [ ] **Each location has a detail page with its own unique URL.**
-- [ ] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
+- [X] **Website includes a visual interface that allows users to select a location they would like to view.**
+  - [X] *Note: A non-visual list of links to different locations is insufficient.* 
+- [X] **Each location has a detail page with its own unique URL.**
+- [X] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
 
 The following **optional** features are implemented:
 
@@ -52,7 +53,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [name of copyright owner]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
